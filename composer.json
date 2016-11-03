@@ -1,0 +1,21 @@
+{
+    "name": "shiftonelabs/codesniffer-standard",
+    "description": "CodeSniffer standard to add a few extra checks not contained in PSR-2.",
+    "keywords": ["ShiftOneLabs", "coding standard", "phpcs"],
+    "homepage": "https://github.com/shiftonelabs/codesniffer-standard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Carlo-Hickman",
+            "email": "patrick@shiftonelabs.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/shiftonelabs/codesniffer-standard/issues",
+        "source": "https://github.com/shiftonelabs/codesniffer-standard"
+    },
+    "require": {
+        "squizlabs/php_codesniffer": "2.*"
+    },
+    "minimum-stability": "stable"
+}

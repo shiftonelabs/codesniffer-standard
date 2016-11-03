@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<ruleset name="ShiftOneLabs">
+  <description>A few extra checks not contained in PSR-2.</description>
+</ruleset>
