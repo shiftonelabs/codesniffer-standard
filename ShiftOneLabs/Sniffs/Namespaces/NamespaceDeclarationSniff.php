@@ -1,13 +1,15 @@
 <?php
 
+namespace ShiftOneLabs\Sniffs\Namespaces;
+
+use PHP_CodeSniffer\Files\File;
+use PHP_CodeSniffer\Sniffs\Sniff;
+
 /**
- * ShiftOneLabs_Sniffs_Namespaces_NamespaceDeclarationSniff.
- *
  * Ensures namespaces are declared correctly.
  */
-class ShiftOneLabs_Sniffs_Namespaces_NamespaceDeclarationSniff implements PHP_CodeSniffer_Sniff
+class NamespaceDeclarationSniff implements Sniff
 {
-
     /**
      * Returns an array of tokens this test wants to listen for.
      *
@@ -21,12 +23,12 @@ class ShiftOneLabs_Sniffs_Namespaces_NamespaceDeclarationSniff implements PHP_Co
     /**
      * Processes this test, when one of its tokens is encountered.
      *
-     * @param PHP_CodeSniffer_File  $phpcsFile  The file being scanned.
+     * @param \PHP_CodeSniffer\Files\File  $phpcsFile  The file being scanned.
      * @param int  $stackPtr  The position of the current token in the stack passed in $tokens.
      *
      * @return void
      */
-    public function process(PHP_CodeSniffer_File $phpcsFile, $stackPtr)
+    public function process(File $phpcsFile, $stackPtr)
     {
         $tokens = $phpcsFile->getTokens();
         $stackPrev = $stackPtr - 1;

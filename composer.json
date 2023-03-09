@@ -15,7 +15,7 @@
         "source": "https://github.com/shiftonelabs/codesniffer-standard"
     },
     "require": {
-        "squizlabs/php_codesniffer": "2.*"
+        "squizlabs/php_codesniffer": "3.*"
     },
     "minimum-stability": "stable"
 }
